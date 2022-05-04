@@ -1,1 +1,1 @@
-# Java_Practice_2022_1
+# Java_Practice_2022
