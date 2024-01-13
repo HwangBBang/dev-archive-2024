@@ -1,0 +1,22 @@
+package scanner;
+
+import java.util.Scanner;
+
+public class Scanner2 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("num1 을 입력해주세요 : ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("num2 을 입력해주세요 : ");
+        int num2 = scanner.nextInt();
+
+        int res = num1 + num2;
+        System.out.println("두 숫자의 합 " + res);
+
+
+
+    }
+}
