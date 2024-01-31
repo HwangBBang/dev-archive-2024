@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import static org.assertj.core.api.Assertions.*;
 
-public class ApplicationContextInfoTest {
+class ApplicationContextInfoTest {
     AnnotationConfigApplicationContext ac =
             new AnnotationConfigApplicationContext(AppConfig.class);
 
