@@ -2,6 +2,8 @@ package hello.core.order;
 
 import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
+import hello.core.member.MemberService;
+import hello.core.member.MemberServiceImpl;
 import hello.core.repository.MemberRepository;
 import hello.core.repository.MemoryMemberRepository;
 
@@ -24,5 +26,10 @@ public class OrderServiceImpl implements OrderService {
         int discountPrice = discountPolicy.discount(findMember, itemPrice);
 
         return new Order(memberId,itemName,itemPrice,discountPrice);
+    }
+
+    // test 용
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }
