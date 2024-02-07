@@ -1,5 +1,6 @@
 package hello.core.order;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.discount.DiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberService;
@@ -12,6 +13,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
+
 //@RequiredArgsConstructor 생성자 메서드 생성 라이브러리 에노테이션 (롬복)
 public class OrderServiceImpl implements OrderService {
 
@@ -45,6 +47,13 @@ public class OrderServiceImpl implements OrderService {
 //  빈 조회 동타입 2개 이상 일 때 발생하는 문제를 @Qualifier 로 해결 ( 구분자를 추가하는 방법임 )
 //    @Autowired
 //    public OrderServiceImpl(MemberRepository memberRepository,@Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy) {
+//        this.memberRepository = memberRepository;
+//        this.discountPolicy = discountPolicy;
+//    }
+
+//  빈 조회 동타입 2개 이상 일 때 발생하는 문제를 @Qualifier + 내가만든 에노테이션으로 해결
+//    @Autowired
+//    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
 //        this.memberRepository = memberRepository;
 //        this.discountPolicy = discountPolicy;
 //    }

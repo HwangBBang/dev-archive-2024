@@ -1,5 +1,6 @@
 package hello.core.discount;
 
+import hello.core.annotation.MainDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 //@Qualifier("mainDiscountPolicy")
+//@MainDiscountPolicy // 내가 만든 에노테이션 (Qualifier 오타시 컴파일 에러로 만들려고)
 @Primary
 public class RateDiscountPolicy implements DiscountPolicy {
 
