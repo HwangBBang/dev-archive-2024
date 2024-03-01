@@ -15,12 +15,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 @WebServlet(name = "frontControllerV4", urlPatterns = "/front-controller/v4/*")
-public class FrontControllerV4 extends HelloServlet {
+public class FrontControllerServletV4 extends HelloServlet {
 
     //url mapping
     private Map<String, ControllerV4> controllerMap = new HashMap<>();
 
-    public FrontControllerV4() {
+    public FrontControllerServletV4() {
         controllerMap.put("/front-controller/v4/members/new-form", new MemberFormControllerV4());
         controllerMap.put("/front-controller/v4/members/save", new MemberSaveControllerV4());
         controllerMap.put("/front-controller/v4/members", new MemberListControllerV4());
@@ -45,7 +45,6 @@ public class FrontControllerV4 extends HelloServlet {
         view.render(model,request,response);
 
     }
-
 
 
 
