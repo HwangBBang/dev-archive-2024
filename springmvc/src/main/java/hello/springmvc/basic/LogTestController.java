@@ -13,13 +13,13 @@ public class LogTestController {
     public String logTest() {
         String name = "Spring";
 
-        System.out.println("name = " + name);
-
-        log.trace("info = {}", name );
-        log.debug("info = {}", name ); // 디버그 할 때 (개발 서버)
-        log.info("info = {}", name ); // 중요한 정보야 (운영 서버)
-        log.warn("info = {}", name ); // 경고 , 위험해
-        log.error("info = {}", name ); // 에러
+//        System.out.println("name = " + name);
+//
+//        log.trace("info = {}", name );
+//        log.debug("info = {}", name ); // 디버그 할 때 (개발 서버)
+//        log.info("info = {}", name ); // 중요한 정보야 (운영 서버)
+//        log.warn("info = {}", name ); // 경고 , 위험해
+//        log.error("info = {}", name ); // 에러
         return "logTest OK";
     }
 
