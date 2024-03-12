@@ -10,11 +10,11 @@ public class Member {
 
     private Long id; // db 에서 저장 및 관리될 id
 
-    @NotEmpty
+    @NotEmpty(message = "절대로! 비어 있을 수 없습니다.")
     private String loginId; // 로그인 id
-    @NotEmpty
+    @NotEmpty(message = "진짜때! 비어 있을 수 없습니다.")
     private String password; // 로그인 pass
-    @NotEmpty
+    @NotEmpty(message = "제발!! 비어 있을 수 없습니다.")
     private String name;   // 사용자 이름
 
 
