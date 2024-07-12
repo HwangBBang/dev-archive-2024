@@ -19,7 +19,7 @@ public class StringUtilsMain2 {
         // matches 메서드
         String regex = "Hello, (Java|World)!";
         System.out.println("str 이 정규 표현식의 패턴과 일치하는가? = " + str.matches(regex));
-        
+
 
     }
 }
