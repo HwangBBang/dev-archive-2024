@@ -1,22 +1,0 @@
-
-Š
-java:S1192"GDefine a constant instead of duplicating this literal "num : " 4 times.(¬çÚ›8éÚ×É…2J$23fc9e64-97ed-4f38-b05d-967c6822df33
-z
-java:S1854"7Remove this useless assignment to local variable "dog".(ƒÛƒ¯8êÚ×É…2J$fd07b08b-56c1-4da5-ae5e-0c3d32d70ef2
-
-java:S1854"7Remove this useless assignment to local variable "car".(Š£”şÿÿÿÿ8êÚ×É…2J$b49db979-5fae-4fe1-b050-f167a17462dc
-p
-java:S1481"(Remove this unused "car" local variable.(Š£”şÿÿÿÿ8êÚ×É…2J$31c96c35-11c1-4b16-9fa8-83b66947b6b9
-k
-java:S1481"(Remove this unused "dog" local variable.(ƒÛƒ¯8êÚ×É…2J$0e94cbd6-e7d1-4473-b2a7-2d0a56c06679
-~	java:S125"<This block of commented-out lines of code should be removed.(ÄÏ¤è8ëÚ×É…2J$54372c0c-b9e2-4f34-b45a-92f2ddc554ec
-ƒ	java:S125
-"<This block of commented-out lines of code should be removed.(‘º®õşÿÿÿÿ8ëÚ×É…2J$ddf541bf-238f-4ecd-82ff-f6247a75efe3
-“	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(‰ÆÄÎşÿÿÿÿ8ëÚ×É…2J$04088959-1dd9-4626-898f-48750e8c36c4
-“	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(úâúÿÿÿÿ8ëÚ×É…2J$aa032b97-a151-49fb-96cf-48b9f57c9962
-“	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ªëÅŞúÿÿÿÿ8ëÚ×É…2J$1657b1ff-baa1-40b4-81e3-0c127197a00b
-m	java:S106"+Replace this use of System.out by a logger.(¬çÚ›8ëÚ×É…2J$43c29a51-c078-4b83-8132-86bd571cc81f
-l	java:S106"+Replace this use of System.out by a logger.(ê¾ÍY8ëÚ×É…2J$87ed4b0b-c822-4739-b8ea-249c6c0e0588
-r	java:S106"+Replace this use of System.out by a logger.(úˆî¨ùÿÿÿÿ8ëÚ×É…2J$094a6aa3-c344-4038-a4c1-1d1116319200
-r	java:S106"+Replace this use of System.out by a logger.(óëç¢ıÿÿÿÿ8ëÚ×É…2J$a543be1a-535a-4597-be1f-46ace9004fb4
-p	java:S108"")Either remove or fill this block of code.(Î¾¼Âÿÿÿÿÿ8ìÚ×É…2J$3e4622a1-1c95-4340-8f79-4da517f8a183

@@ -1,8 +1,0 @@
-
-s
-java:S1144"+Remove this unused private "action" method.(ÉÚ§íüÿÿÿÿ8Ù¼æ–…2J$9407e12e-92a5-4111-ba33-460f99f4515f
-m	java:S106"+Replace this use of System.out by a logger.(õÙ˜¡8Ú¼æ–…2J$54576415-458b-4fdb-bd3c-ca7d40cc35c0
-ƒ
-java:S6201
-"@Replace this instanceof check and cast with 'instanceof Dog dog'(®Š¶¯8Û¼æ–…2J$2f9cb27e-5f23-4e13-b275-5bc98a39fbd5
-p	java:S108")Either remove or fill this block of code.(°¸Ïéûÿÿÿÿ8Û¼æ–…2J$05f020c5-893d-4664-bcd7-1c4f795d0a11
